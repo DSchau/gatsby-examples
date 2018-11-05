@@ -1,6 +1,11 @@
 {
-  "name": "examples",
+  "name": "@dschau/gatsby-examples",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "dynamic-data"
+  ]
 }
+
